@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <!-- MSTest adapter -->
+  <MSTest>
+    <Parallelize>
+      <Workers>5</Workers>
+      <Scope>MethodLevel</Scope>
+    </Parallelize>
+  </MSTest>
+
+  <RunConfiguration>
+    <MaxCpuCount>6</MaxCpuCount>
+    <DisableParallelization>true</DisableParallelization>
+  </RunConfiguration>
+
+</RunSettings>
